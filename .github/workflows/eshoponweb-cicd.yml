@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: tweitodtest-rg1
+  RESOURCE-GROUP: tweitotest-rg1
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: df8b2c00-570b-44b5-a6ee-aefd13aca172
